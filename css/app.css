@@ -1,0 +1,189 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0 !important;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  color: #594545;
+  background-color: #fff8ea;
+  background-image: url(../assets/images/background_body.png);
+  background-size: contain;
+  background-blend-mode: hard-light;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.font-esthetic {
+  font-family: "Dancing Script", cursive !important;
+  color: #594545 !important;
+}
+.font-esthetic-salam {
+  font-family: "Dancing Script", cursive !important;
+  color: #fff8ea !important;
+}
+
+.font-arabic {
+  font-family: "Noto Naskh Arabic", serif !important;
+  color: #fff8ea !important;
+}
+
+.font-arabic-akhir {
+  font-family: "Noto Naskh Arabic", serif !important;
+  color: #594545 !important;
+}
+.img-crop {
+  width: 14rem;
+  height: 14rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.img-crop > img {
+  display: inline;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+}
+
+.btn-music {
+  position: fixed;
+  height: 32px;
+  width: 32px;
+  bottom: 12vh;
+  right: 2vh;
+  z-index: 1055;
+  background-color: #fff8ea;
+  opacity: 75%;
+}
+
+.btn-gift {
+  background-color: #fff8ea;
+  position: fixed;
+  height: 32px;
+  width: 32px;
+  bottom: 18vh;
+  right: 2vh;
+  z-index: 1055;
+  opacity: 75%;
+}
+
+.img-gift {
+  height: 18px;
+}
+.loading-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/images/background.jpeg);
+  background-position: center;
+  background-size: cover;
+  z-index: 1056 !important;
+}
+
+.card-body {
+  overflow-wrap: break-word !important;
+}
+
+.mouse-animation {
+  position: fixed;
+  bottom: 12vh;
+  left: 2vh;
+  z-index: 1055;
+  padding: 0.25rem 0.625rem;
+  height: 2rem;
+  background-color: #fff8ea;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    transform: translateY(1rem);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+}
+
+.mouse-animation > .scroll-animation {
+  width: 0.25rem;
+  height: 0.625rem;
+  border-radius: 25%;
+  background-color: black;
+  animation-name: scroll;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.scroll-animation1 {
+  margin: auto;
+  width: 0.25rem;
+  height: 0.625rem;
+  border-radius: 25%;
+  background-color: #c69774;
+  animation-name: scroll;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+section {
+  color: #594545;
+}
+
+.dark-section {
+  background-image: url(../assets/images/background_body.png);
+  opacity: 85%;
+  background-color: #c69774 !important;
+  margin: 1vh 1vh;
+  border-radius: 3vh;
+  border: 5px solid #594545;
+}
+
+footer {
+  background-color: #c69774 !important;
+  margin-top: -0.4rem;
+  padding-bottom: 4rem;
+}
+
+.background-welcomepage {
+  background-image: linear-gradient(180deg, transparent 0 30%, #fff8ea 90% 100%),
+    url(../assets/images/BPP_5064.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.welcomePage {
+  background-image: url(../assets/images/background.jpeg);
+  background-position: center;
+  background-size: cover;
+  border: #fff8ea solid 1vh;
+}
+
+.btn-custom {
+  background-color: #c69774;
+  border: none;
+  font-weight: bold;
+}
+
+.separator {
+  max-width: 100%;
+}
